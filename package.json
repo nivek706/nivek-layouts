@@ -1,0 +1,66 @@
+{
+  "name": "nivek-layouts",
+  "version": "0.0.0",
+  "description": "Dynamic broadcast graphics rendered in a browser",
+  "homepage": "twitch.tv/nivek706",
+  "author": {
+    "name": "Kevin Wells",
+    "email": "nivek706@gmail.com",
+    "url": "twitch.tv/nivek706"
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "~0.8.0",
+    "dashboardPanels": [
+      {
+        "name": "nivek-layouts",
+        "title": "nivek706 Stream",
+        "width": 4,
+        "file": "nivek-layouts.html",
+        "headerColor": "#009688"
+      }
+    ],
+    "graphics": [
+      {
+		"file": "brb.html",
+        "width": 1920,
+        "height": 1080,
+        "singleInstance": false
+      },
+	  {
+		"file": "game-4x3.html",
+		"width": 1920,
+		"height": 1080,
+		"singleInstance": false
+	  },
+	  {
+		"file": "guild-wars.html",
+		"width": 1920,
+		"height": 1080,
+		"singleInstance": false
+	  },
+	  {
+		"file": "intro.html",
+		"width": 1920,
+		"height": 1080,
+		"singleInstance": false
+	  },
+	  {
+		"file": "sc2.html",
+		"width": 1920,
+		"height": 1080,
+		"singleInstance": false
+	  }
+    ]
+  },
+  "repository": "https://github.com/nodecg/nodecg.git"
+}

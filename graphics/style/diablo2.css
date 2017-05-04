@@ -1,0 +1,36 @@
+.content{
+	background-image: url("/graphics/nivek-layouts/img/4x3-overlay-v3.png");
+	font-family: "Montserrat";
+}
+
+#current-character{
+    max-height: 150px;
+    position: relative;
+    float: right;
+    top: 642px;
+    right: 18px;
+    overflow: hidden;
+    width: 489px;
+    background: rgba(100,100,100,.5);
+}
+
+#character-image{
+}
+
+.character-text{
+    position: absolute;
+    text-align: right;
+    top: 0px;
+    right: 8px;
+    width: 100%;
+    color: white;
+}
+
+#character-name{
+    font-size: 50px;
+    line-height: 45px;
+}
+
+#character-text-misc{
+    font-size: 20px;
+}

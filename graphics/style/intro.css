@@ -1,0 +1,62 @@
+.content {
+				background-color: #212121;
+				font-family: 'Open Sans', 'sans-serif';
+}
+
+.outer-box {
+				position: absolute;
+	
+				width: 50%;
+				left: 25%;
+				top: 20%;
+				height: 60%;
+}
+
+.column-left {
+				position: relative;
+				float: left;
+				width: 59.5%;
+				height: 85%;
+				border-style: solid;
+				border-width: 2px;
+				border-color: #9E9E9E;
+}
+
+.column-right {
+				position: relative;
+				width: 39.5%;
+				height: 85%;
+				background-color: #111111;
+				float: right;
+}
+
+.info-panel {
+	height: 24.5%;
+	margin-bottom: 1%;
+	background-color: #9E9E9E;
+}
+
+.title {
+				font-family: 'Montserrat', 'sans-serif';
+				color: #009688;
+				font-size: 70px;
+				position: relative;
+				width: 100%;
+				height: 15%;
+}
+
+#countdown-area {
+				position: absolute;
+				left: 265px;
+				top: 268px;
+				font-weight: normal;
+				color: #0080ff;
+				font-size: 104px;
+}
+
+#clock-main {
+				color: black;
+				font-family: "Droid Sans Mono";
+				font-weight: normal;
+				position: relative;
+}
