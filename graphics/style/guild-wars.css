@@ -1,5 +1,5 @@
 .container{
-	background-image: url("/view/nivek-layouts/img/gw-overlay.png");
+	background-image: url("/bundles/nivek-layouts/graphics/img/gw-overlay.png");
 	font-family: "Open Sans";
 }
 
@@ -17,7 +17,7 @@
 	font-family: "Droid Sans Mono";
 	font-weight: normal;
 	position: relative;
-	
+
 }
 
 #mwc-logo {

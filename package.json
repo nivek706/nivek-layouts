@@ -19,7 +19,7 @@
     "nodecg-bundle"
   ],
   "nodecg": {
-    "compatibleRange": "~0.8.0",
+    "compatibleRange": "",
     "dashboardPanels": [
       {
         "name": "nivek-layouts",
